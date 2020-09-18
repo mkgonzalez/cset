@@ -1,0 +1,11 @@
+**After completing the first course, how would you rate yourself? Is there anything you want to do differently to start the next course?**
+
+   I think I definitely could have participated more. I think that I have learned a lot so far, but I could definitely have learned more. Perhaps in the next course I will try to participate more and study until I unlock the next stage of human evolution. I will become a machine. The best way to write things that a computer can understand is to become a computer. I did not really read any of the extra pages that you linked, but I might start when things become complicated. I will also try to take part in discussions more often. It is a bit hard for me, though, because I typically do not think that my opinion is worth posting.
+
+**The Weresquirrel program showed many uses for JavaScript Objects and Arrays. Using variables and values from this example, explain the difference between the two data structures.**
+
+  Arrays are a list of elements. The elements can be called via their index number. The index starts counting at 0, not 1. Objects have properties. The properties are named, and are called via that name. In the Weresquirrel program, both are used. Each day, he inputs whether he turned into a squirrel and the events that occured that day. Those properties go into an object. The "events" are an array. The object holds both the boolean value and the array. He later puts the objects in another array. 
+
+**Now explain why the author chose to use one structure over the other for each example you chose. Follow the same reasoning and explain how you could have used objects and arrays in your adventure game from last week.**
+
+  The author likely decided to use objects and arrays to reduce clutter and to more easily organize the program. I am not sure if they are ever NESSESARY to solve a problem, but they are certainly very useful. In my game from last week, I could have used an object to keep track of my stats instead of just having them be global variables. I could also have maybe used an object to store all of the monsters and their values. That would definitely be helpful if the game were to be expanded and many monsters and stats were added.
