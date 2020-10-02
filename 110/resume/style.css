@@ -1,0 +1,64 @@
+html {
+  background-color:black;
+  color: silver;
+  font-family: "Lato";
+  font-size: 20px;
+}
+h1, h2, abbr, figcaption{
+    color: white;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  border: 3px silver;
+  border-style: none none dashed none;
+  padding: 0px 1px;
+}
+figure {
+  width: 50%;
+  margin: auto;
+  padding: 0px;
+  animation: spasm 0.001s infinite;
+  position: relative;
+}
+figcaption {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Impact";
+  letter-spacing: 4px;
+}
+
+/* Classes */ 
+.main {
+  margin: 0px 20%;
+  border: 3px solid silver;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+/* Psuedo-Classes */ 
+p:first-of-type {
+  text-align: center;
+}
+a:link {
+  color: green;
+}
+a:hover {
+  color: rgb(0, 83, 11);
+}
+a:active {
+  color: #0a3600;
+}
+
+/* At-Rules */
+@keyframes spasm {
+  from {top: 0px;}
+  to {top: 2px;}
+}
+
+/* IDs */ 
+#email {
+  text-align: center;
+  color: green;
+}
