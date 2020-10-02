@@ -1,0 +1,11 @@
+**Pick your favorite CSS property so far. Explain what it's used for and all the potential values or units it can take. Why do you like it?**
+
+I think my favorite property so far is the `background` property. It is shorthand for `background-color`, `background-image`, `background-position`, `background-size`, `background-repeat`, `background-origin`, `background-clip`, and `background-attachment`. That is a lot of information that can be rendered by just one property. The property changes the background of an element. Considering that the background is the biggest thing on the page, it is very important for it to look good. If websites could only have a pure white background, the internet would be a lot more boring.
+
+**Imagine you are making a website for a restaurant and you need to style the menu options to show that some are spicy or vegetarian or gluten-free. If all the menu options are using the same HTML elements, what CSS selector(s) could you use and why? Show an example.**
+
+I would use the `:nth-of-type(x)` selector, personally. It would allow me to easily choose the necessary menu options based on their place in the menu. If there were a spicy item that was 8th on the menu, I could do `:nth-of-type(8)` and make the background a flame image or something. For vegetarian and gluten-free, I could probably just use an image of a circle with a line through it over meat and wheat respectively.
+
+**Style rules sometimes conflict with each other, especially in large projects. Explain the difference between cascade, inheritance, and specificity and how you can use these concepts to organize your CSS.**
+
+Cascade refers to how between two conflicting rules, the one later in the sheet will be applied. For instance, if I set the text color to blue and then to green, the color would be green. Specificity refers to how selectors can take precedence based on their specific they are. An example of this is how setting the text color in a class will take precedence, even if the text color is changed later by something with less specificity. Inheritence is how styled parent elements can pass down the stylings to the child elements. Setting the `body` text color to blue will make all text in the `body` blue, whether heading, paragraph, or anything else. To effectively use CSS, all of these must be understood, at least at a basic level.
